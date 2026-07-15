@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form>
+        <fieldset>
+            <table cellpadding="10">
+                <caption><h3><i class="fa-solid fa-bed"></i> Add New Room</h3></caption>
+                <tr>
+                    <td>
+                        <label>Room number</label>
+                    </td>
+                    <td>
+                        :<input type="text" name="txtnum" placeholder="type...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Room Price</label>
+                    </td>
+                    <td>
+                        :<input type="number" name="txtprice" min="20" placeholder="type...">
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label>Room Type</label>
+                    </td>
+                    <td>
+                        :<select name="Rtype">
+                            <option value="">Single Room</option>
+                            <option value="">Double Room</option>
+                            <option value="">Family Room</option>
+                        </select>
+                    </td>
+                </tr>
+                 <tr valign="top">
+                    <td>
+                        <label>Room Note :</label>
+                    </td>
+                    <td>
+                        <textarea name="txtnote" id="" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td>
+                        <label>Room Status</label>
+                    </td>
+                    <td>
+                        :<select name="txtstatus" >
+                            <option value="">Aviable</option>
+                            <option value="">Maintence</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td>
+                    </td>
+                    <td>
+                       <input type="submit" value="Insert">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
